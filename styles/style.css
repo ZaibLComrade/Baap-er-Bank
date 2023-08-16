@@ -1,0 +1,50 @@
+header {
+	text-align: center;
+	font-size: 22px;
+}
+
+#text-bank {
+	color: tomato;
+}
+
+.login {
+	width: max-content;
+	margin: 80px auto 0px auto;
+	background-color: #164;
+	padding: 80px;
+	border-radius: 8px;
+}
+
+.login > h3 {
+	color: white;
+	font-size: 30px;
+}
+
+.input-fields > input {
+	display: block;
+	margin-bottom: 20px;
+	padding: 14px 0px;
+	padding-left: 15px;
+	padding-right: 365px;
+	border: none;
+	border-radius: 8px;
+	font-size: 15px;
+}
+
+.btn-container {
+	width: 100%;
+	text-align: center;
+}
+
+.submit-btn {
+	margin: 0 auto 0 auto;
+	padding: 16px 40px;
+	font-size: 18px;
+	background-color: #AFA;
+	border: none;
+	border-radius: 8px;
+}
+
+.submit-btn:hover {
+	background-color: #2FA;
+}

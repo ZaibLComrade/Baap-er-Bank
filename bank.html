@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./styles/bank.css">
+	<title>Document</title>
+</head>
+<body>
+	<h1 class="headline">Let's get some money</h1>
+	
+	<main>
+		<!-- Status -->
+		<section id="status">
+			<div id="deposit-container">
+				<h2>Deposited Amount</h2>	
+				<p class="amount">$<span id="deposit-amount">00.00</span></p>
+			</div>
+			<div id="withdraw-container">
+				<h2>Withdrawn Amount</h2>
+				<p class="amount">$<span id="withdraw-amount">00.00</span></p>
+			</div>
+			<div id="total-container">
+				<h2>Total Amount</h2>
+				<p class="amount">$<span id="total-amount">00.00</span></p>
+			</div>	
+		</section>
+		
+		<!-- Functionality -->
+		<section class="functionality">
+			<div id="deposit">
+				<h2>Deposit</h2>	
+				<div class="inputs">
+					<input placeholder="Enter amount to deposit" type="text" name="" id="deposit-input">
+					<button id="deposit-btn" type="submit">deposit</button>
+				</div>
+			</div>
+			<div id="withdraw">
+				<h2>Withdraw</h2>	
+				<div class="inputs">
+					<input placeholder="Enter amount to withdraw" type="text" name="" id="withdraw-input">
+					<button id="withdraw-btn" type="submit">Withdraw</button>	
+				</div>
+			</div>	
+	</main>
+
+	<script src="./scripts/bank.js"></script>
+</body>
+</html>
